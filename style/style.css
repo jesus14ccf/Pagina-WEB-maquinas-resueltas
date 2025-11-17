@@ -1,0 +1,126 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 300px;
+    background-image: url("../assets/img/matrix2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.borde_redondo {
+    border-radius: 15px;
+}
+
+.layout {
+    display: flex;
+    gap: 3rem;
+    /* separa imagen y texto */
+    align-items: center;
+    /* alinea al inicio verticalmente */
+    justify-content: center;
+    padding: 3rem;
+    box-sizing: border-box;
+    max-width: 1200px;
+    /*esto me ayudo a centrar el contenido de main*/
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.contenido {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lateral {
+    flex: 2;
+    padding-left: 1rem;
+    border-left: nose;
+    position: relative;
+}
+
+/*con esto tengo la linea vertical difuminada*/
+.lateral::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: linear-gradient(to bottom, transparent, #36BA01, transparent);
+}
+
+
+
+.contenido img {
+    width: 100%;
+    max-width: 500px;  
+    height: auto;
+    display: block;
+}
+
+.imagen {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+}
+
+
+.site-footer {
+    padding: .6rem 1.25rem;
+    background: #111827;
+    color: #e5e7eb;
+}
+
+
+
+p {
+    color: white;
+    line-height: 1.6;
+}
+
+/* tamaño para que se adapte al movil */
+@media (max-width: 900px) {
+    .layout {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .lateral {
+        padding-left: 0;
+        border-left: none;
+        position: relative;
+        padding-top: 1rem;
+    }
+
+    .lateral::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(to right, transparent, #36BA01, transparent);
+    }
+}
+
+/* Este para moviles mas pequeños*/
+@media (max-width: 600px) {
+    header {
+        height: 150px;
+    }
+}
+
+/*.prueba {
+    background-color: green;
+}*/
