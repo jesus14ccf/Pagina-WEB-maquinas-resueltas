@@ -78,15 +78,27 @@ header {
 
 .site-footer {
     padding: .6rem 1.25rem;
-    background: #111827;
-    color: #e5e7eb;
+    background: #313B44;
+    text-align: center;
 }
 
 
-
 p {
-    color: white;
+    color: #36ba01;
     line-height: 1.6;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #36BA01, transparent);
+    margin: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #36ba01;
+    margin-top: 0;
+    text-align: center;
 }
 
 /* tamaño para que se adapte al movil */
@@ -121,6 +133,14 @@ p {
     }
 }
 
-/*.prueba {
+
+
+
+
+
+
+
+
+ /* .prueba {
     background-color: green;
-}*/
+}  */
