@@ -5,15 +5,25 @@ body {
     font-family: Arial, sans-serif;
 }
 
+
 header {
-    width: 100%;
-    height: 300px;
-    background-image: url("../assets/img/matrix2.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;          
+    height: 500px;         
+    overflow: hidden;      /* Oculta partes del video que sobresalgan */
+    margin: 0;
+    padding: 0;
 }
 
+header video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+    clip-path: inset(0 0 20% 0); /* recorta 15% por abajo */
+}
 
 .borde_redondo {
     border-radius: 15px;
@@ -26,12 +36,15 @@ header {
     align-items: center;
     /* alinea al inicio verticalmente */
     justify-content: center;
-    padding: 3rem;
+    padding-top: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
     box-sizing: border-box;
     max-width: 1200px;
     /*esto me ayudo a centrar el contenido de main*/
     margin: 0 auto;
-    margin-top: 3rem;
+    margin-top: 0;
 }
 
 .contenido {
@@ -66,6 +79,7 @@ header {
     max-width: 500px;  
     height: auto;
     display: block;
+    margin-top: 0;
 }
 
 .imagen {
@@ -86,6 +100,7 @@ header {
 p {
     color: #36ba01;
     line-height: 1.6;
+    text-align: justify;
 }
 
 hr {
@@ -97,7 +112,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
     color: #36ba01;
-    margin-top: 0;
+    margin-top: 1rem;
     text-align: center;
 }
 
@@ -133,8 +148,6 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-
-
- /* .prueba {
+/* .prueba {
     background-color: green;
-}  */
+} */ 
