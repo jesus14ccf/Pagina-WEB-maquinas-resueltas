@@ -1,6 +1,6 @@
 # 🚀 PROJECT MACHINE
 
-![Banner del proyecto](https://github.com/user-attachments/assets/f9816f28-53ca-492f-8900-e6295784314d)
+![bannerGit](https://github.com/user-attachments/assets/00469c12-f91f-4f9e-bb85-4fba5e9afaa2)
 
 En este proyecto voy a estar resolviendo máquinas de Hack The Box para afianzar mis conocimientos en ciberseguridad
 y crear una especie de portfolio donde se vea lo que sé hacer.
