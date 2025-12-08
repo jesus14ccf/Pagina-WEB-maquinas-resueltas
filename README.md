@@ -8,6 +8,6 @@ y crear una especie de portfolio donde se vea lo que sé hacer.
 ![Logo del proyecto](https://github.com/user-attachments/assets/bd50bb05-f409-4cab-84c7-c280ac9db45b)
 
 ¡Visita mi canal para ver todas las máquinas resueltas!  
-👉 [Mi canal de YouTube](https://www.youtube.com/@projectMachineX)
+👉 <a href="https://www.youtube.com/@projectMachineX" target="_blank" rel="noopener noreferrer">Mi canal de YouTube</a>
 
 
